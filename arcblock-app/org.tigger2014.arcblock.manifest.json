@@ -1,0 +1,16 @@
+{
+  "id": "org.tigger2014.arcblock",
+  "version": "1.0.1",
+  "type": "web",
+  "title": "ARC Sound Override Blocker",
+  "iconUri": "https://raw.githubusercontent.com/Tigger2014/lgArcAutoBlock/main/arcblock-app/icon.png",
+  "sourceUrl": "https://github.com/Tigger2014/lgArcAutoBlock",
+  "ipkUrl": "org.tigger2014.arcblock_1.0.1_all.ipk",
+  "ipkHash": {
+    "sha256": "1433c07e5a9c489354773e34f4d033d8959fe4257d37dd6623929fac67f00b49"
+  },
+  "ipkSize": 43644,
+  "appDescription": "ARC Sound Override Blocker - stops ARC/eARC auto-switching",
+  "rootRequired": true,
+  "installedSize": 113279
+}

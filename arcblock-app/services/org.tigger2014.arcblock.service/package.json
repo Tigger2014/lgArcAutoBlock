@@ -1,0 +1,7 @@
+{
+  "name": "org.tigger2014.arcblock.service",
+  "version": "1.0.0",
+  "description": "ARC Sound Override Blocker service — keeps arcblock injected, exposes toggle/status",
+  "main": "service.js",
+  "license": "BSD"
+}

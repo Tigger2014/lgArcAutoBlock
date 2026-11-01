@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ARC Sound Override Blocker</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="wrap">
+  <header>
+    <h1>ARC Sound Override Blocker</h1>
+    <p class="sub">Blocks ARC/eARC auto-switching. Your sound choice stays.</p>
+  </header>
+  <button id="toggle" class="toggle off" disabled autofocus>Loading…</button>
+  <section class="rows">
+    <div class="row"><span>Blocker</span><b id="stEnabled">–</b></div>
+    <div class="row"><span>Hooked</span><b id="stHooked">–</b></div>
+  </section>
+  <h2>Recent</h2>
+  <pre id="recent">–</pre>
+  <p id="err" class="err" aria-live="polite"></p>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

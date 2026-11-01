@@ -1,0 +1,14 @@
+# Submission pointer for webosbrew/apps-repo (packages/).
+# Copy this file into a fork of webosbrew/apps-repo under packages/ and open
+# a PR. manifestUrl must keep resolving to the newest release, so it points at
+# releases/latest — no PR needed for future releases, just cut a new GitHub
+# release containing the IPK + .manifest.json.
+title: ARC Sound Override Blocker
+iconUri: https://raw.githubusercontent.com/Tigger2014/lgArcAutoBlock/main/arcblock-app/icon.png
+manifestUrl: https://github.com/Tigger2014/lgArcAutoBlock/releases/latest/download/org.tigger2014.arcblock.manifest.json
+category: system
+pool: main
+description: |
+  Blocks ARC/eARC auto-switching on rooted LG webOS TVs. Your sound choice
+  stays put: pick TV speakers and the soundbar can't grab audio back; pick
+  the soundbar manually and it works with sound.

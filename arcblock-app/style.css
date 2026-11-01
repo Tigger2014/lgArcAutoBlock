@@ -1,0 +1,84 @@
+/* 10-foot TV UI: full-width, huge targets, overscan-safe. */
+* { box-sizing: border-box; }
+html, body { min-height: 100%; }
+body {
+  margin: 0;
+  background: #000;
+  color: #f2f2f2;
+  font-family: sans-serif;
+  font-size: 26px;
+  line-height: 1.35;
+  overflow-y: auto;
+}
+.wrap {
+  min-height: 100vh;
+  width: 100%;
+  max-width: none;
+  margin: 0;
+  padding: 4vh 4vw 8vh;
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+h1 { margin: 0; font-size: 64px; line-height: 1.05; letter-spacing: -1px; }
+.sub { margin: 6px 0 0; color: #c9c9c9; font-size: 27px; max-width: none; }
+.toggle {
+  width: 100%;
+  font-size: 48px;
+  font-weight: 800;
+  padding: 32px 24px;
+  border: none;
+  border-radius: 22px;
+  cursor: pointer;
+  color: #fff;
+  outline-offset: 6px;
+}
+.toggle.on { background: #12a150; }
+.toggle.off { background: #b3261e; }
+.toggle:disabled { opacity: 0.65; cursor: wait; }
+.toggle:focus-visible { outline: 6px solid #ffd60a; }
+/* Single row: Blocker + Hooked side by side, full width. */
+.rows {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+  margin: 0;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 20px;
+  padding: 20px 24px;
+  background: #141414;
+  border: 1px solid #2a2a2a;
+  border-radius: 16px;
+  font-size: 30px;
+}
+.row span { color: #bdbdbd; flex-shrink: 0; }
+.row b { text-align: right; overflow-wrap: anywhere; }
+h2 { font-size: 30px; margin: 4px 0 0; }
+pre {
+  background: #101010;
+  border: 1px solid #2a2a2a;
+  border-radius: 16px;
+  padding: 20px 22px;
+  font-size: 21px;
+  line-height: 1.5;
+  white-space: pre-wrap;
+  word-break: break-word;
+  min-height: 0;
+  max-height: none;
+  overflow: visible;
+  margin: 0 0 4vh;
+}
+.err { color: #ff9d94; font-size: 24px; min-height: 1.4em; margin: 0; }
+@media (max-width: 700px) {
+  body { font-size: 20px; }
+  h1 { font-size: 42px; }
+  .sub { font-size: 20px; }
+  .toggle { font-size: 32px; padding: 24px 18px; }
+  .rows { grid-template-columns: 1fr; }
+  .row { font-size: 22px; padding: 16px 18px; }
+  pre { font-size: 17px; }
+}

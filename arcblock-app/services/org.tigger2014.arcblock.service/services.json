@@ -1,0 +1,9 @@
+{
+  "id": "org.tigger2014.arcblock.service",
+  "description": "ARC Sound Override Blocker service",
+  "services": [
+    {
+      "name": "org.tigger2014.arcblock.service"
+    }
+  ]
+}

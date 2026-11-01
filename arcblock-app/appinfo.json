@@ -1,0 +1,11 @@
+{
+  "id": "org.tigger2014.arcblock",
+  "version": "1.0.1",
+  "vendor": "arcblock",
+  "type": "web",
+  "main": "index.html",
+  "title": "ARC Sound Override Blocker",
+  "icon": "icon.png",
+  "largeIcon": "icon.png",
+  "iconColor": "#0C0C0C"
+}

@@ -1,0 +1,6 @@
+# build + packaging artefacts (regenerated, never commit)
+arcblock/out/
+arcblock-app/*.ipk
+arcblock-app/services/org.tigger2014.arcblock.service/bin/
+*.log
+.DS_Store

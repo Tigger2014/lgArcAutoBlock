@@ -1,0 +1,13 @@
+{
+  "packages": [
+    {
+      "id": "org.tigger2014.arcblock",
+      "title": "ARC Sound Override Blocker",
+      "iconUri": "https://raw.githubusercontent.com/Tigger2014/lgArcAutoBlock/main/arcblock-app/icon.png",
+      "manifestUrl": "https://github.com/Tigger2014/lgArcAutoBlock/releases/latest/download/org.tigger2014.arcblock.manifest.json",
+      "category": "system",
+      "pool": "main",
+      "description": "Blocks ARC/eARC auto-switching on rooted LG webOS TVs. Your sound choice stays put: pick TV speakers and the soundbar can't grab audio back; pick the soundbar manually and it works with sound."
+    }
+  ]
+}
