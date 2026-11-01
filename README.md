@@ -6,6 +6,8 @@ manually and it works with sound.
 
 Tested on an LG webOS TV (`eim`, glibc 2.35, 32-bit ARM soft-float).
 
+NOTE: Fully written with AI using Muse 1.3 with some gentle persuasion along the way.
+
 ## Install
 
 On the TV: Homebrew Channel → Settings → Add repository, paste:
